@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+
+.container{
+    height: 650px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    
+}
+.h1{
+    height: 120px;
+    background-color: blue;
+    
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 110px;
+    padding-right: 110px;
+    color: white;
+}
+.h2{
+    height: 70px;
+    background-color: yellow;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px; 
+    color: black;
+}
+
+footer{
+    height: 70px;
+    background-image: linear-gradient(45deg,blue 60%, transparent 40%);
+    position: relative;
+    bottom: -370px;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 24px;
+    color: white;
+    > h3 > span{
+        font-weight: 200;
+    }
+}
+
+.main{
+    position: absolute;
+    height: 600px;
+    width: 960px;
+    z-index: 1;
+    background-color: transparent;
+    box-shadow: 0px 0px 2px 1px grey;
+    top: 15px;
+    left: 15px;
+    border-radius: 15px;
+}
+section{
+    padding: 10px;
+}
+.sec{
+    position: absolute;
+    z-index: 2;
+    height: 150px;
+    width: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo{
+    background-image: url(/img/img1.png);
+    top: 20px;
+    
+}
+.logo2{
+    background-image: url(/img/img2.png);
+    right: 10px;
+    top: 20px;
+}
+.qr{
+    background-image: url(/img/img3.png);
+    right: 60px;
+    bottom: 70px;
+}
+.text{
+    height: 350px;
+    width: 650px;
+    padding: 10px 20px;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 33px;
+    top: 180px;
+}
+.text > p:nth-child(9){
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.text > p:nth-child(10){
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    
+    width: 170px;
+    line-height: 15px;
+    > span{
+        font-size: 12px;
+    }
+}
+.text > p:nth-child(11){
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+}
+.t2{
+    font-family: 'Arima' sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
